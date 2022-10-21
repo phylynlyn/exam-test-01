@@ -6,7 +6,7 @@ ENV PORT 3000
 COPY . /app
 WORKDIR /app
 RUN npm ci
-RUN rm -rf /bin/sh
+
 
 
 
